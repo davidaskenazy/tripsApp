@@ -43,6 +43,23 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+  
+  assets:
+    - assets/img/people.jpg
+    - assets/img/peopleTwo.jpg
+    - assets/img/peopleThree.jpg
+    - assets/img/beach.jpeg
+    - assets/img/beach2.jpg
+    - assets/img/mountain.jpg
+    - assets/img/river.jpg
+    - assets/img/sunset.jpg
+  
+  
+  
+  fonts:
+    - family: Lato
+      fonts:
+        - asset: fonts/Lato-Regular.ttf
 
   # To add assets to your application, add an assets section, like this:
   # assets:
