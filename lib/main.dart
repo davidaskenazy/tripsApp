@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tripsApp/tripsAppCupertino.dart';
 import 'tripsApp.dart';
 
 void main() {
@@ -26,6 +27,7 @@ class MyApp extends StatelessWidget {
           // closer together (more dense) than on mobile platforms.
           visualDensity: VisualDensity.adaptivePlatformDensity,
         ),
+        //tripsApp()//TripsAppCupertino()
         home: tripsApp());
   }
 }
